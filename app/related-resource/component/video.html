@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+      <html>
+        <head>
+          <meta charset="UTF-8"/>
+          <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+          <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/1.9.5/skins/default/index-min.css" />
+          <script type="text/javascript" src="https://g.alicdn.com/de/prismplayer/1.9.5/prism-min.js"></script>
+        </head>
+        <body>
+        <div class="prism-player" id="J_prismPlayer"></div>
+        <script>
+          var urlParams = new URLSearchParams(window.location.search);
+          var vid = urlParams.get('vid') || '';
+          var playauth = urlParams.get('playauth') || '';
+          var coverImage = urlParams.get('coverImage') || '';
+          var player = new prismplayer({
+              id: "J_prismPlayer",
+              autoplay: false,
+              vid: vid,
+              playauth: playauth,
+              cover: coverImage
+          });
+          </script>
+        </body>
+      </html>

@@ -1,0 +1,17 @@
+{
+  "name": "qmkit",
+  "version": "1.0.0",
+  "description": "qm' react-native uikit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qianmi",
+    "react",
+    "native",
+    "uikit"
+  ],
+  "author": "hufeng",
+  "license": "ISC"
+}
